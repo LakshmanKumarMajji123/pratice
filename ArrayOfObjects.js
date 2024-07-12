@@ -8,6 +8,7 @@ const cricketer = {
   Fifties: "50+",
   Formats: "T20, Odi, Test",
   isLoggedIn: false,
+  isLoggeOut: true,
 
 
   //Arrayof objects
@@ -37,10 +38,10 @@ const cricketer = {
 
     this.isLoggedIn = true;
     return `login----${this.isLoggedIn} ---- ${this.Designation}`;
-  }
-
-
-
+  },
+  logout: function(){
+   this.loggedOut = false;
+    return `logout----${this.isloggedOut} ----${this.Name}`;
 };
 
 

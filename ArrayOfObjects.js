@@ -42,8 +42,10 @@ const cricketer = {
   logout: function(){
    this.loggedOut = false;
     return `logout----${this.isloggedOut} ----${this.Name}`;
-};
 
+  }
+  
+};
 
 //console.log(cricketer);
 
